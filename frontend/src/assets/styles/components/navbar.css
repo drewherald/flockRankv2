@@ -1,0 +1,91 @@
+/* global font styling */
+
+@font-face {
+   font-family: 'ms_sans_serif';
+   src: url('react95/dist/fonts/ms_sans_serif.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal
+ }
+ @font-face {
+   font-family: 'ms_sans_serif';
+   src: url('react95/dist/fonts/ms_sans_serif_bold.woff2') format('woff2');
+   font-weight: bold;
+   font-style: normal
+ }
+
+ 
+@media only screen and (max-width: 1000px) {
+   .navContainer{
+    flex-direction: column;
+    padding: 15px 7dvw !important;
+   }
+
+   .navInner{
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0;
+   }
+
+   .navInner button{
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+
+
+   /* logged in button styling */
+
+   .loggedIn{
+      flex-direction: column;
+   }
+
+   .loggedIn a{
+      padding: 10px 0;
+   }
+
+   .css-cq2wis-MuiAutocomplete-root{
+      padding: 25px 0;
+      padding-right: 0 !important;
+   }
+
+   .css-th06dx{
+      padding-right: 0 !important;
+   }
+
+   .css-1df1cvt{
+      width: 80dvw !important;
+   }
+
+   .css-1xkky4a{
+      margin: 0 !important;
+   }
+}
+
+.dlntsU, .dUPAFy, .dUPAFy::before, .dUPAFy::after, .feXoUD{
+   font-family:  'ms_sans_serif' !important;
+}
+
+@media (min-width:1000px){
+   
+   .css-1oqqzyl-MuiContainer-root{
+      padding-left:0 !important; ;padding-right:0 !important;
+   }
+
+   /* Button Styling */
+
+ .formButton:hover{
+   color: #394dcd;
+ }
+ 
+ .css-3ji88i{
+   min-height: 0 !important;
+ }
+}
+
+.css-xnv4u0{
+   background-color: #c6c6c6 !important;
+}
+
+.css-397hl{
+   background-color: #c6c6c6 !important;
+}
+
