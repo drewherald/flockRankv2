@@ -19,6 +19,12 @@ const theme = createTheme({
 });
 
 
+export const SongContext= createContext({
+  songList: [],
+  toggleColorMode: true,
+  setColorMode: () => {},
+});
+
 function App() {
   const [songList, setSongList] = useState<string[]>([]);
   const [toggleColorMode, setToggleColorMode] = useState(false);
